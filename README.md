@@ -1,17 +1,19 @@
-Project 1: Spotify API 🎧
-Introduction
+#Project 1: Spotify API 🎧
+##Introduction
 Spotify is a “ digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world”. As of late 2022, Spotify has 465 million users and is the most popular music streaming service. Spotify has curated playlists for a large variety of genres and playlists for top 50 popular songs in each country.
 
-GOALS / DELIVERABLES
+##GOALS / DELIVERABLES
 My first goal overall was to connect to the api. I did this through a python library that speically is used for connecting to the spotify API. It made it simple and seamless to connect our keys and start quering the API. My next goal was to extract our insights into a Dataframe. This was done by connecting many of the API endpoints together to create one dataframe we were able to manipulate. From there I gathered out insights. Creating data and graphs for each specific question:
 
 For the regression I used the top 50 global playlist. We chose popularity as the dependent variabel and used the other attributes to analyze if there was any correlation between them. This included genres which we needed to create dummy variables so that the model can take those features into account.
 
+##Tools Used
 Spotify Api
 Python
 Jupyter Notebook
 AUDIO FEATURE DEFINITIONS
-Its important to know what each attribute mean and how they are categorized within the Spotify API.
+
+###Its important to know what each attribute mean and how they are categorized within the Spotify API.
 
 Acousticness - A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
 Danceability - Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
