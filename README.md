@@ -1,4 +1,4 @@
-#Project 1: Spotify API 🎧
+#roject 1: Spotify API 🎧
 ##Introduction
 Spotify is a “ digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world”. As of late 2022, Spotify has 465 million users and is the most popular music streaming service. Spotify has curated playlists for a large variety of genres and playlists for top 50 popular songs in each country.
 
